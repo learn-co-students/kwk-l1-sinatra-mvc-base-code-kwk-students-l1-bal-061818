@@ -44,4 +44,25 @@ body, html {
  border: solid  #9966ff 4px;
  text-decoration: none;*/
 
- 
+ .btn {
+  background: #faf6a3;
+  background-image: -webkit-linear-gradient(top, #faf6a3, #91fffa);
+  background-image: -moz-linear-gradient(top, #faf6a3, #91fffa);
+  background-image: -ms-linear-gradient(top, #faf6a3, #91fffa);
+  background-image: -o-linear-gradient(top, #faf6a3, #91fffa);
+  background-image: linear-gradient(to bottom, #faf6a3, #91fffa);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
