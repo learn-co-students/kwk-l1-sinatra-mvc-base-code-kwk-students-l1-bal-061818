@@ -25,7 +25,7 @@ class MyApp < Sinatra::Base
 
     post  '/results' do
       answers = params.values
-      @total= 0
+      @total = 0
       answers.each do |answer|
       @total += answer.to_i
     end
