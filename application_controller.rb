@@ -23,7 +23,7 @@ class MyApp < Sinatra::Base
       erb :quiz
     end
 
-    post  '/results' do
+    post '/results' do
       answers = params.values
       @total = 0
       answers.each do |answer|
