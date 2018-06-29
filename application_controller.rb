@@ -35,9 +35,9 @@ class MyApp < Sinatra::Base
     if @person == "crusader"
       erb :Earth_crusader
     elsif @person == "ameteur"
-    erb :Earthy_ameteur
-  elsif @person == "aware"
-    erb :Earthy_aware
+      erb :Earthy_ameteur
+    elsif @person == "aware"
+      erb :Earthy_aware
     end
   end
   end
