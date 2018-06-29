@@ -24,7 +24,7 @@ class MyApp < Sinatra::Base
     end
 
     post '/results' do
-      answers = params.values
+      answers = params.user_values
       @total = 0
       answers.each do |answer|
       @total += answer.to_i
