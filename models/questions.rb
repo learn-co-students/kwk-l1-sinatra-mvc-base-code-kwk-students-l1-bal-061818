@@ -3,7 +3,7 @@ def environment_chooser(user_value)
 		"ameteur"
 	elsif user_value <= 5
 		"aware"
-	elsif user_value <= 15
+	elsif user_value <= 10
 		"crusader"
 	end
 end
