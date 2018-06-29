@@ -44,7 +44,7 @@ body, html {
  border: solid  #9966ff 4px;
  text-decoration: none;*/
 
- .btn {
+  button {
   background: #faf6a3;
   background-image: -webkit-linear-gradient(top, #faf6a3, #91fffa);
   background-image: -moz-linear-gradient(top, #faf6a3, #91fffa);
@@ -65,4 +65,3 @@ body, html {
   background: #3cb0fd;
   text-decoration: none;
 }
-
