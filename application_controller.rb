@@ -19,7 +19,7 @@ class MyApp < Sinatra::Base
     get '/more_info.erb' do
       erb :more_info
     end
-    get '/quiz' do
+    get '/quiz.erb' do
       erb :quiz
     end
 
